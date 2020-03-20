@@ -19,7 +19,7 @@ export default class ChittrApp extends React.Component {
   // }
 
   getChitData = () => {
-    return fetch('http://localhost:3333/api/v0.0.5/chits')
+    return fetch("http://10.0.2.2/api/v0.0.5/user",
     .then((response) => response.json())
     .then((responseJson) => {
       this.setState({
@@ -62,7 +62,7 @@ export default class ChittrApp extends React.Component {
   // }
 
   createUser = () => {
-    return fetch("http://10.0.0.2.2:3333/api/v0.0.5/user",
+    return fetch("http://10.0.2.2/api/v0.0.5/user",
     {
       method: 'POST',
       headers: {
