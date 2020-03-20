@@ -21,4 +21,4 @@ npx react-native run-android
 
 ## Info
 - Author: Zain Qureshi 16009205
-- File Size: 
+- File Size: 1.2mb
